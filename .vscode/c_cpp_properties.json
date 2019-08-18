@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/zed/include",
+                "/usr/include/hwloc",
+                "/usr/local/cuda-9.0/include",
+                "/opt/ros/kinetic/include",
+                "/home/xue/catkin_ws/src/darknet_ros",
+                "/home/xue/catkin_ws/devel/include",
+                "/home/xue/catkin_ws/src/yolo_test/include/yolo_test"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
