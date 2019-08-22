@@ -1,7 +1,7 @@
 <launch>
    
     <include file="$(find zed_wrapper)/launch/zed.launch"/>
-    <include file="$(find darknet_ros)/launch/darknet_ros.launch"/>
+    <include file="$(find darknet_ros)/launch/yolov3-tiny.launch"/>
     <node pkg="yolo_test" name="yolo" type="zed_publisher" />
 
 </launch>
